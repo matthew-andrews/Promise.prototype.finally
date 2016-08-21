@@ -1,5 +1,10 @@
 # Promise.prototype.finally [ ![Codeship Status for matthew-andrews/Promise.prototype.finally](https://codeship.io/projects/d2ed45d0-3364-0132-3c6b-26237c03a86a/status)](https://codeship.io/projects/40589)
 
+## **Note**
+This package has been superseded by https://github.com/es-shims/Promise.prototype.finally as of v2.0.0. Please upgrade!
+
+----
+
 A polyfill for `Promise.prototype.finally`.  See docs on what finally is on [your favourite pre-ES6 promise library](https://github.com/tildeio/rsvp.js/blob/master/README.md#finally).
 
 Warning: This micro-library doesn't force you to use any particular Promise implementation by using whatever `Promise` has been defined as globally.  This is so that you may use any ES6 standard Promise compliant library - or, of course, native ES6 Promises.
